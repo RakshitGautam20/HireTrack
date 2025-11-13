@@ -27,7 +27,8 @@ public class OpenApiConfig {
                 .version("1.0.0")
                 .description("A RESTful API for tracking job applications. " +
                         "Users can manage their job applications with features like status tracking, " +
-                        "search, and filtering. Each user is identified by their email address.");
+                        "search, and filtering. Each user is identified by their email address.\n\n" +
+                        "Developed by Rakshit");
 
         return new OpenAPI()
                 .info(info)

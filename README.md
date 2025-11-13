@@ -50,7 +50,7 @@ A RESTful backend API for tracking job applications, built with Spring Boot and 
    ```
 
 4. **Access Swagger UI**
-   - Open: http://localhost:8080/swagger-ui
+   - Open: https://amusing-embrace-production.up.railway.app/swagger-ui
    - Interactive API documentation and testing
 
 ## API Endpoints
@@ -120,8 +120,8 @@ PATCH /api/applications/{uuid}/status?status=INTERVIEW&userEmail=john.doe@exampl
 
 ## Documentation
 
-- **Swagger UI**: http://localhost:8080/swagger-ui (when running locally)
-- **API Docs**: http://localhost:8080/v3/api-docs
+- **Swagger UI**: https://amusing-embrace-production.up.railway.app/swagger-ui
+- **API Docs**: https://amusing-embrace-production.up.railway.app/v3/api-docs
 
 ## License
 
